@@ -26,5 +26,5 @@ CREATE TABLE netflix
     duration     VARCHAR(15),
     listed_in    VARCHAR(250),
     description  VARCHAR(550)
-);
-...
+    );
+       ...
