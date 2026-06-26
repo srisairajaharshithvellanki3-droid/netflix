@@ -30,7 +30,7 @@ CREATE TABLE netflix
     );
 ```
 
-# business problems and solutions
+## business problems and solutions
 
 ```select * from netflix;
 
