@@ -9,7 +9,8 @@ Analyze the distribution of content types (movies vs TV shows).
 Identify the most common ratings for movies and TV shows.
 List and analyze content based on release years, countries, and durations.
 Explore and categorize content based on specific criteria and keywords.
-
+## schema
+...sql
 DROP TABLE IF EXISTS netflix;
 CREATE TABLE netflix
 (
@@ -26,3 +27,4 @@ CREATE TABLE netflix
     listed_in    VARCHAR(250),
     description  VARCHAR(550)
 );
+...
